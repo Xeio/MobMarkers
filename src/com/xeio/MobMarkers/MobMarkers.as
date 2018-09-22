@@ -59,6 +59,11 @@ class MobMarkers
         
         m_removeZoneCommand.SignalChanged.Disconnect(RemoveZone, this);
         m_removeZoneCommand = undefined;
+        
+        for (var i in m_dynels)
+        {
+            Remove(m_dynels[i]);
+        }
     }
 
     public function Activate(config: Archive)
