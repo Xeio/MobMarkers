@@ -93,6 +93,8 @@ class MobMarkers
         Nametags.SignalNametagRemoved.Connect(Add, this);
         Nametags.SignalNametagUpdated.Connect(Add, this);
         
+        Nametags.RefreshNametags();
+        
         WaypointInterface.SignalPlayfieldChanged.Connect(PlayFieldChanged, this);
     }
     
