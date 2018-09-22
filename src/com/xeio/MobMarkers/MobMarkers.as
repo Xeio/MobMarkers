@@ -1,16 +1,11 @@
-import GUI.Waypoints.ScreenWaypoint;
 import com.GameInterface.DistributedValue;
-import com.GameInterface.DistributedValueBase;
 import com.GameInterface.Game.Character;
 import com.GameInterface.Game.Dynel;
-import com.GameInterface.Inventory;
 import com.GameInterface.Nametags;
-import com.GameInterface.Tooltip.TooltipData;
 import com.GameInterface.Waypoint;
 import com.GameInterface.WaypointInterface;
 import com.Utils.Archive;
 import com.Utils.ID32;
-import com.Utils.LDBFormat;
 import com.xeio.MobMarkers.Utils;
 import flash.geom.Point;
 import mx.utils.Delegate;
