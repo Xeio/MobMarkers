@@ -157,7 +157,7 @@ class MobMarkers
     private function Remove(dynel:Dynel)
     {
         Utils.Remove(m_dynels, dynel);
-        delete _root.waypoints.m_CurrentPFInterface.m_Waypoints[dynel.GetID().toString];
+        delete _root.waypoints.m_CurrentPFInterface.m_Waypoints[dynel.GetID().toString()];
         _root.waypoints.m_CurrentPFInterface.SignalWaypointRemoved.Emit(dynel.GetID());
     }
     
